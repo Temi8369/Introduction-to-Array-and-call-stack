@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <p id="join"></p>
+        <p id="tpop"></p>
+        <p id="dpop"></p>
+
+        <script>
+            var fruits = ["banana", "mango", "Apple"];
+            document.getElementById("join").innerHTML = fruits.join(" * ");
+            document.getElementById("tpop").innerHTML = fruits;
+            fruits.pop();
+            document.getElementById("dpop").innerHTML = fruits;
+        </script>
+    </body>
+</html>
